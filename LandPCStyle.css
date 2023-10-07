@@ -1,0 +1,446 @@
+
+/*PC Styling Begins-------------------------------------------------*/
+@font-face {
+    font-family: MyBrit;
+    src: url(BrittanySignature.ttf);
+  }
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(PCWallpaper.png);
+    background-size: cover;
+}
+.LandPC .header {
+    background-color: transparent;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .LandPC .FlowersGL{
+        margin-left: -50%;
+        margin-top: -10%;
+    width: 17vw;
+    z-index: +10;
+    position:absolute;
+}
+.LandPC .FlowersGR{
+    width: 17vw;
+    margin-left: 32.5%;
+    margin-top: -15%;
+    z-index: +10;
+    position:absolute;
+}
+.LandPC .FlowersRmed{
+    width: 17vw;
+    margin-left: 82.5%;
+    margin-top: -20%;
+    z-index: +10;
+    position:absolute;
+}
+.LandPC .FlowersL{
+    width: 18vw;
+    z-index: +10;
+    position:absolute;
+}
+.LandPC .FlowersR{
+    width: 18vw;
+    z-index: +10;
+    position:absolute;
+    margin-left: 81.7%;
+}
+.LandPC .logo{
+    z-index: 5;
+    position:absolute;
+    margin-left: 45%;
+    padding-top: 10px;
+}
+.LandPC h1{
+    font-family: MyBrit;
+    text-align: center;
+    padding-bottom: 5px;
+    font-size: larger;
+}
+.LandPC h2{
+    font-family: MyBrit;
+}
+/*NavBar Begins*/
+.LandPC .navbar{
+    z-index: 4;
+    background-color:transparent;
+}
+.LandPC .nav-link{
+    color:black!important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger!important;
+}
+.LandPC .navbar .container-fluid{
+    background-color: transparent;
+    padding-bottom: 20px;
+}
+.LandPC .nav-item{
+    padding-top: 20px;
+}
+.LandPC .call{
+    margin: auto 10px auto auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b8ff02;
+    background-color:transparent!important;
+    color:black;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*NavBar Ends*/
+/*Sec1 Begins*/
+.LandPC .Sec1{
+    position: relative;
+    height: 550px;
+    overflow: hidden;
+    background-color:transparent;
+ }
+ .LandPC .Sec1vid{
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    min-width: 40vw;
+    min-height: 40vw;
+    width: auto;
+    height: 100px;
+    transform: translateX(-50%) translateY(-50%);
+ }
+/*Sec1 Ends*/
+
+/*Sec2 Begins*/
+.LandPC .Sec2{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    background-color: transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.LandPC .Sec2 row{
+    border: #b8ff02;
+    border-radius: 10px;
+}
+/*Sec2 Ends*/
+
+/*Sec3 Begins*/
+.LandPC .Sec3B{
+    display: none;
+    background-color: transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.LandPC .Sec3{
+    background-color: transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.LandPC .carousel-inner{
+    height: 500px;
+}
+.LandPC .cards-wrapper{
+    display: flex;
+}
+.LandPC .card{
+    text-align: justify;
+    border-style: none!important;
+    background-color: transparent!important;
+    margin: 0.5rem;
+    width: calc(100%/3);
+    font-family: 'Josefin Sans', sans-serif;
+}
+.LandPC .image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.LandPC .card-text{
+    line-height: 1.2em;
+}
+/*Sec3 Ends*/
+
+/*Sec4 Begins*/
+.LandPC .Sec4{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    background-color: transparent;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.LandPC .Sec4 div{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/*Sec4 Ends*/
+
+/*Sec6 Begins*/
+.LandPC .Sec6{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    background-color: transparent;
+    padding: 5% 20% 5% 20%;
+}
+/*Sec6 Ends*/
+
+/*Footer Begins*/
+.LandPC footer{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 0.1%;
+}
+.LandPC footer h3{
+    font-family: MyBrit;
+}
+.LandPC svg{
+    color: #fffbf5;
+}
+.LandPC footer a{
+    text-decoration: none;/*to remove blue line*/
+}
+/*Footer Ends*/
+
+@media screen and (max-width:1100px){
+  .LandPC .carousel-inner{
+        height: 400px;
+    }
+    .LandPC .card-text{
+    font-size:small;
+    text-align: left;
+    }
+    .LandPC .Sec3 button{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:800px){
+  .LandPC .Sec1vid{
+        position:absolute;
+        top: 40%;
+        left: 50%;
+        min-width: 50vw;
+        min-height: 50vw;
+        width: auto;
+        height: 100px;
+        transform: translateX(-50%) translateY(-50%);
+     }
+     .LandPC .carousel-inner{
+        height: 300px;
+    }
+    .LandPC .card-title{
+        font-size:smaller;
+    }
+    .LandPC .card-text{
+    font-size:x-small;
+    text-align: left;
+    }
+    .LandPC .Sec3 button{
+        height: 200px;
+    }
+}
+
+@media screen and (min-width:600px){
+    .LandPhone{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px){
+    .LandPC{
+        display: none;
+    }
+    body{
+        background-image: url(Wallpaper16.png);
+        background-size:cover;
+      }
+}
+/*PC Styling Ends------------------------------------------------------------------------------*/
+
+/*Phone Styling Begins------------------------------------------------------------------------------*/
+.LandPhone .header {
+    background-color: transparent;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  .LandPhone h1{
+      /*font-family: 'Playfair Dixplay', serif;*/
+      font-family: MyBrit;
+      font-size:xx-large;
+      color: black;
+      padding-bottom: 10px;
+    }
+    .LandPhone h5{
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    /* font-family: 'Lisu Bosa', serif;*/
+    .LandPhone li,p,a{
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: smaller;
+      line-height: 1.2em;
+      font-weight:550;
+      color: black;
+    }
+    .LandPhone .Part1{
+      height: 45vw;
+    }
+    .LandPhone .Logo{
+      position: absolute;
+      margin-top: 12vw;
+      margin-left: 35vw;
+      height: 22vw;
+      z-index: 1;
+    }
+    .LandPhone .LogoPaint{
+      position: absolute;
+      margin-left: 35vw;
+      height: 58vw;
+      z-index: -1;
+    }
+    .LandPhone .Part2{
+      position: static;
+      height: 135vw;
+      padding-top: 30px;
+    }
+    .LandPhone .Part2 video{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+    }
+    .LandPhone .Part2 .Flower{
+      z-index: 1;
+      height: 30vw;
+    }
+    .LandPhone .Part3 img{
+      width: 35vw;
+      rotate: -15deg;
+      float: right;
+      padding: 15px;
+    }
+    .LandPhone .Part3 .PolDr{
+      width: 30vw;
+      float: left;
+      rotate: 5deg;
+      padding-right: 5px;
+    }
+    .LandPhone .Part3{
+      width: 100%;
+      padding: 30px 10%;
+    }
+    .LandPhone .Part4{
+      padding: 30px 10%;
+    }
+    .LandPhone .Part4 img{
+      width: 40vw;
+      float: right;
+      padding-left: 10px;
+      padding-top: 10px;
+      rotate: -10deg;
+    }
+    .LandPhone .Part5{
+      padding: 30px 10%;
+    }
+    .LandPhone ul{
+      list-style-position: outside;
+    }
+    .LandPhone .Part6{
+    text-align: justify;
+    padding: 50px 10%;
+    }
+    .LandPhone footer{
+      width: 100%;
+      text-align: center;
+    }
+    .LandPhone .Contact{
+      padding: 5% 10%;
+      text-align: left;
+      z-index: 1;
+    }
+    .LandPhone .map{
+      width: 100%;
+      height: 250px;
+    }
+    .LandPhone footer .FlCont{
+      position: absolute;
+      z-index: -1;
+      width: 90%;
+      text-align: right;
+    }
+    .LandPhone Footer .Flower{
+      width: 55vw;
+    }
+    .LandPhone .Part7{
+      width: 100%;
+      padding-top: 20vw;
+      text-align: center;
+    }
+    .LandPhone .Part7 p{
+      font-size: x-small;
+    }
+    .LandPhone .Part7 img{
+      width: 100%;
+    }
+    .LandPhone .carrousel{
+      text-align:left;
+      padding-top: 10px;
+      display: grid;
+      grid-auto-flow: column;
+      scroll-behavior: auto;
+      gap: 1.2rem;
+      overflow-y: auto;
+      overscroll-behavior-x: contain;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    .LandPhone .carrousel::-webkit-scrollbar{
+      display: none;
+    }
+    .LandPhone .card{
+      background-color: transparent;
+      border: none;
+      scroll-snap-align: start;
+      min-height: 200px;
+      min-width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  @media only screen and (min-width: 350px) {
+    .LandPhone .Logo{
+      margin-top: 10vw;
+      margin-left: 40vw;
+      height: 20vw;
+    }
+    .LandPhone .LogoPaint{
+      position: absolute;
+      margin-left: 40vw;
+      height: 48vw;
+      z-index: -1;
+    }
+  }
+
+  @media only screen and (min-width: 400px){
+    .LandPhone .Part4 img{
+      width: 30vw;
+    }
+  }
+
+  @media only screen and (min-width: 450px) {
+    .LandPhone .Part3 img{
+      width: 30vw;
+    }
+    .LandPhone .Part3 .PolDr{
+      width: 25vw;
+    }
+    .LandPhone .Part4 img{
+      width: 25vw;
+    }
+    .LandPhone footer .Flower{
+      width: 45vw;
+    }
+  }
+/*Phone Styling Ends------------------------------------------------------------------------------*/

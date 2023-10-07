@@ -1,0 +1,65 @@
+@font-face {font-family: MyBrit;src: url(BrittanySignature.ttf);}body{margin: 0;border: 0;font-family: 'Josefin Sans', sans-serif;background-image: url(PCWallpaperDown.png);background-size: cover;}.navbar{background-color:transparent;
+}
+.nav-link{color:black!important;font-family: 'Josefin Sans', sans-serif;font-size: larger!important;}
+.navbar-brand{display: block;margin-left: auto;margin-right: auto;width: 20%;}
+.call{margin: auto 10px auto auto;padding: 10px;border-radius: 5px;border-style: solid;border-color: #b8ff02;background-color:transparent!important;color:black;text-decoration: none;font-family: 'Josefin Sans', sans-serif;}
+.FlowersL{width: 18vw;z-index: +10;position:absolute;}
+.FlowersR{width: 18vw;z-index: +10;position:absolute;margin-left: 81.7%;}
+ .Sec1{font-family: 'Josefin Sans', sans-serif;background-color:transparent;min-width: 100%;padding: 10% 15% 20% 15%;}
+ .Sec1 h1{font-family: MyBrit;font-size:7vw;text-align: center;padding-bottom: 5%;}
+ .Sec1 p{text-align: justify;font-size: 1.2vw;}
+.Cln img{
+    float: left;
+    margin-right: 2vw;
+    width: 20vw;
+}
+.Dr img{
+    float: right;
+    margin-left: 2vw;
+    width: 15vw;
+}
+/*Footer Begins*/
+footer{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 0.1%;
+}
+footer h3{
+    font-family: MyBrit;
+}
+svg{
+    color: #fffbf5;
+}
+footer a{
+    text-decoration: none;/*to remove blue line*/
+}
+/*Footer Ends*/
+@media only screen and (max-width: 800px) {
+     .Sec1 h1{
+        font-size:10vw;
+        padding-bottom: 5%;
+     }
+     .Sec1 p{
+        font-size: 2vw;
+     }
+    .Dr{
+        padding-top: 1vw;
+    }
+    .Cln img{
+        margin-right: 3vw;
+        margin-top: 10px;
+        width: 25vw;
+    }
+    .Dr img{
+        margin-left: 3vw;
+        margin-top: -20px;
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+     .Sec1 p{
+        font-size: 3vw;
+     }
+     
+}

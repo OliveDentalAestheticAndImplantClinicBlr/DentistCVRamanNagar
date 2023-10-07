@@ -1,0 +1,151 @@
+@font-face {
+    font-family: MyBrit;
+    src: url(BrittanySignature.ttf);
+  }
+body{
+    margin: 0;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: url(PCWallpaperDown.png);
+    background-size: cover;
+}
+/*NavBar Begins*/
+.navbar{
+    background-color:transparent;
+}
+.nav-link{
+    color:black!important;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger!important;
+}
+.navbar-brand{/*Center*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.call{
+    margin: auto 10px auto auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #b8ff02;
+    background-color:transparent!important;
+    color:black;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/*NavBar Ends*/
+/*Sec1 Begins*/
+ .Sec1{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color:transparent;
+    min-width: 100%;
+    padding: 10% 15% 10% 15%;
+ }
+ .Sec1 h1{
+    font-family: MyBrit;
+    font-size:7vw;
+    text-align: center;
+    padding-bottom: 5%;
+ }
+.Sec1 .col-md-5{
+    background-color:transparent!important;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.Sec1 .col-md-7{
+    background-color:transparent!important;
+    padding: 20px;
+    padding-top: 5%;
+}
+.map{
+    height: 30rem;
+    padding: 1% 1% 1% 1%;
+}
+.map iframe{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+form{
+    margin-left: 25%;
+    padding-top: 50px;
+    max-width: 400px;
+    align-self: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+form h4{
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline #b8ff02;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+input{
+    border-radius: 0px!important;
+    border-top: 0px!important;
+    border-right: 0px!important;
+    border-left: 0px!important;
+    border-bottom: 1px solid black!important;
+    background-color: transparent!important;
+}
+form button{
+    background-color: black!important;
+    color: #b8ff02!important;
+    border: 0px!important;
+}
+form button a{
+    color: #b8ff02;
+    text-decoration: none;
+}
+form button a:hover{
+    color: aqua;
+}
+/*Sec1 Ends*/
+/*Footer Begins*/
+footer{
+    font-family: 'Kollektif', sans-serif;
+}
+footer h3{
+    font-family: MyBrit;
+}
+/*Footer Ends*/
+
+@media only screen and (max-width: 500px){
+/*Sec1 Begins*/
+.Sec1{
+    padding: 10% 7% 20% 7%;
+ }
+.map{
+    height: 20rem;
+}
+/*Sec1 Ends*/
+
+
+
+}
+@media only screen and (max-width: 400px){
+    /*Sec1 Begins*/
+    .map{
+        height: 15rem;
+    }
+    .map iframe{
+        min-height: 100%;
+        width: 50%;
+    }
+    }
+@media only screen and (max-width: 300px){
+        /*Sec1 Begins*/
+        .Sec1{
+            padding: 10% 0% 20% 0%;
+         }
+         .Sec1 h6{
+            font-size:small;
+            padding-bottom: 5%;
+         }
+        .map{
+            height: 12rem;
+        }
+        /*Sec1 Ends*/
+        }
